@@ -1,0 +1,5 @@
+name: "ms-scheduler"
+appmap_dir: "target/appmap"
+packages:
+- path: "az.ingress.msscheduler"
+- path: "db.changelog"

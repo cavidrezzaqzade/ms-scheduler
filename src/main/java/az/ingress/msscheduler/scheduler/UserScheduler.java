@@ -28,6 +28,7 @@ public class UserScheduler {
 
     @SneakyThrows
     @Scheduled(fixedRateString = "PT2S")
+//    @Scheduled(cron = "45 12 * 7 *")
 //    @SchedulerLock(name = "printUsersInfo", lockAtLeastFor = "PT1M", lockAtMostFor = "PT5M")
     public void printUsersInfoFixedRate(){
         System.out.println("aaa");
